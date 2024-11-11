@@ -54,6 +54,9 @@ footer {
     background-color: orange;
 }
 
+
+
+
 /* ID formatting rules */
 #menu {
     font-size: 110%;
@@ -70,4 +73,15 @@ footer {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* navbar styles with dropdown menu*/
+nav {
+    position: 0 absolute; 
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    text-align: left;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
