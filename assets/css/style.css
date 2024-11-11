@@ -5,11 +5,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 /* general styles */
 body {
-    display: flex;
+    min-height: 100vh;
+    display: flex; 
     flex-direction: column;
     /* generic color styles */
     color: #3a3a3a; 
@@ -29,7 +31,7 @@ h1 {
 main {
     background-color: lightblue;
    /* make main element take up any surplus space to push footer to the bottom of the page */
-    flex: 0 1 auto;
+   flex: 1 0 auto;
 }
 
 /* Footer */
