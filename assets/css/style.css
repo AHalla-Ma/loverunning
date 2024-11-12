@@ -35,17 +35,28 @@ header a {
     text-decoration: none;
     color: inherit; 
 }
-/* navbar styles with dropdown toggle*/
-nav {
-    position: absolute; 
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%; 
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* nav toggle */
 #nav-toggle:checked~nav {
@@ -60,26 +71,33 @@ nav {
     font-size: 2rem;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
+/* navbar styles with dropdown toggle*/
+nav {
+    position: absolute; 
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%; 
+}
 
 /* Main content */
 main {
-   /* make main element take up any surplus space to push footer to the bottom of the page */
-   flex: 1 0 auto;
-   margin-top: 47px;
-}
+    /* make main element take up any surplus space to push footer to the bottom of the page */
+    flex: 1 0 auto;
+    margin-top: 47px;
+ }
 
 /* hero styling */
 #hero {
-height: 600px;
-width: 100%; 
-background: url("../images/hero-image.webp") no-repeat center center/cover;
+    height: 90vh;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+    padding-top: 10%;
 }
 
 
@@ -99,23 +117,8 @@ background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 
-/* ID formatting rules */
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
 
-#menu > li {
-    margin-bottom: 1em;
-}
-
-/* classes */
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
+ 
 /* Media Query: tablets and larger (768px plus) */
 
 @media screen and (min-width: 768px) {
