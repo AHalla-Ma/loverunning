@@ -98,7 +98,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center / cover;
     position: relative;
 }
 
@@ -191,7 +191,7 @@ main {
     }
 
 #benefits-image { 
-    position: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
