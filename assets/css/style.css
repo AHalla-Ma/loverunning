@@ -28,6 +28,16 @@ h1, h2, h3 {
 
 .hidden-heading {display: none;}
 
+/* photo styling */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
