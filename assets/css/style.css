@@ -242,6 +242,15 @@ hr {
 #times h3 {color: #fafafa;}
  
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+    
 
 
 /* Media Query: tablets and larger (768px plus) */
@@ -277,6 +286,9 @@ hr {
     margin: 0 0.5rem;
 }
 
+#photos {
+    column-count: 3;
+}
 }
 /*Main content media query */
 main {
@@ -289,6 +301,9 @@ main {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
     color: rgba(31, 31, 211, 0.424);
+}
+#photos {
+    column-count: 4;
 }
 }}
 
@@ -317,4 +332,7 @@ main {
    #benefits-physical > div {
     align-self: flex-end;
    }
+   #photos {
+    column-count: 4;
+}
 }
