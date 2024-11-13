@@ -208,7 +208,30 @@ hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+
+#times {
+    background: url(../images/ci-dublin-city.webp) no-repeat center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* this will not wrap on screens of less than 400px wide. Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* creates a grid of meetup times over the background image */
+    border: 2px solid white;}
+
+#times h3 {color: #fafafa;}
  
+
+
+
 /* Media Query: tablets and larger (768px plus) */
 
 @media screen and (min-width: 768px) {
@@ -242,6 +265,7 @@ hr {
     margin: 0 0.5rem;
 }
 
+}
 /*Main content media query */
 main {
     /*push main content down to accomodate larger header */
