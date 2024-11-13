@@ -295,6 +295,8 @@ hr {
     padding: 15px 32px;
 }
 
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -342,12 +344,39 @@ hr {
 #photos {
     column-count: 3;
 }
-}
 /*Main content media query */
 main {
     /*push main content down to accomodate larger header */
     margin-top: 79px;
 }
+#sign-up {
+    background-position: center;
+    position: relative;
+}
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
+}
+
+
+
+
+
+
 
 /*media query for 992px and higher */
 @media screen and (min-width: 992px) {
@@ -358,7 +387,7 @@ main {
 #photos {
     column-count: 4;
 }
-}}
+}
 
 
 @media screen and (min-width: 1200px){
